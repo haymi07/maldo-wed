@@ -1,0 +1,116 @@
+    
+     
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("BG0A9014.JPG");
+    
+
+   
+   
+
+    /* Full height */
+   height: 100%;
+   width:100%;
+   
+   filter: blur(2px);
+   -webkit-filter: blur(2px);
+  
+    /* Center and scale the image nicely */
+   
+    
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+  }
+
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    /* text-align: center; */
+  }
+
+  a:hover{
+    border: 5px solid black;
+  }
+
+ .accordion-body img{
+  border-radius: 40px;
+  width:80px;
+  height:80px;
+  align-items: center;
+ 
+ }
+ .manager{
+
+  margin-left: 10px;
+  
+ }
+
+.name-edit{
+  font-family: cursive;
+  margin-bottom: 2px;
+}
+.A-wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0 10px 10px 40px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  overflow: hidden;
+  margin-top: 40px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: var(--span) 4px solid;
+}
+.pics{
+   
+    object-fit: cover;
+
+}
+.container-max-widths {
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1140px;
+  xxl: 1320px;}
+
+.album-container {
+  @include make-container();
+}
+
+.oldies-edit{
+  
+
+}
+.merereg{
+  display: flex;
+  justify-content: space-between;
+
+}
+.card img{
+  height:400px;
+  }
+
